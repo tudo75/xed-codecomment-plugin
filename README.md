@@ -12,22 +12,6 @@ To interface with xed some libraries are needed:
 * libgtk-3-dev
 * libgtksourceview-4-dev
 * libxapp-dev
-  
-## Vapi files
-
-Run <code>create-vapi.sh</code> in <code>vapi</code> folder and copy <code>xed.vapi</code> and <code>xed.deps</code> in 
-    
-    /usr/share/vala/vapi/
-
-## Missing Xed headers
-
-Copy <code>Xed-1.0.h</code> from <code>missing-xed-headers</code> folder to
-
-    /usr/include/
-
-and remaining header files to
-
-    /usr/include/xed/
 
 ## Install
 

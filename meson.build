@@ -18,7 +18,7 @@ includedir = get_option('includedir')
 libexecdir = get_option('libexecdir')
 desktopdir = join_paths(datadir, 'applications')
 schema_dir = join_paths(datadir, 'glib-2.0', 'schemas')
-include_dirs = include_directories('.', 'xed')
+include_dirs = include_directories('.', 'xed', './missing-xed-headers')
 
 vapi_dir = meson.current_source_dir() / 'vapi'
 add_project_arguments(['--vapidir', vapi_dir], language: 'vala')
