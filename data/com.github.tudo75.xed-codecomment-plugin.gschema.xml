@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/github/tudo75/xed-codecomment-plugin/" id="com.github.tudo75.xed-codecomment-plugin">
+        <key name="block-comments-languages" type="s">
+            <default>"c,chdir"</default>
+            <summary>Block comments languages</summary>
+            <description>Programming languages which prefer block comments over line comments (comma separated values).</description>
+        </key>
+    </schema>
+</schemalist>
+
