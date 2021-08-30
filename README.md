@@ -12,6 +12,7 @@ To interface with xed some libraries are needed:
 * libgtk-3-dev
 * libgtksourceview-4-dev
 * libxapp-dev
+* xed-dev
 
 ## Install
 
