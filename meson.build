@@ -18,13 +18,11 @@ includedir = get_option('includedir')
 libexecdir = get_option('libexecdir')
 desktopdir = join_paths(datadir, 'applications')
 schema_dir = join_paths(datadir, 'glib-2.0', 'schemas')
-include_dirs = include_directories('.', 'xed', './missing-xed-headers')
+include_dirs = include_directories('.', './missing-xed-headers')
+vapidir = get_option('datadir') / 'vala' / 'vapi'
 
 vapi_dir = meson.current_source_dir() / 'vapi'
 add_project_arguments(['--vapidir', vapi_dir], language: 'vala')
-
-vapidir = get_option('datadir') / 'vala' / 'vapi'
-
 add_project_arguments(['--enable-experimental'], language: 'vala')
 
 dependencies = [
@@ -54,6 +52,5 @@ PKGCONFIG_DEPS = [
 subdir('po')
 subdir('src')
 subdir('data')
-
 
 meson.add_install_script('build-aux/post_install.py')
