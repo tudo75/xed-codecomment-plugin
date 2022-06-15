@@ -27,7 +27,7 @@ Run <code>run.sh</code> to install with meson build system.
 
 Or if you want to do it manually:
 
-    meson setup build --prefix=/usr --wipe
+    meson setup build --prefix=/usr
     ninja -v -C build com.github.tudo75.xed-codecomment-plugin-gmo
     ninja -v -C build
     ninja -v -C build install
