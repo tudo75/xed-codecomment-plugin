@@ -1,5 +1,5 @@
 # project name and programming language
-project('com.github.tudo75.xed-codecomment-plugin', ['vala', 'c'], version: '0.0.1')
+project('com.github.tudo75.xed-codecomment-plugin', ['vala', 'c'], version: '0.1.0')
 
 assert('com.github.tudo75.xed-codecomment-plugin.gschema.xml'==meson.project_name() + '.gschema.xml', 'proj name and gschema file not the same')
 

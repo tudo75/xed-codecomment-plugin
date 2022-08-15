@@ -6,6 +6,7 @@ codecomment
 *.pot
 *.mo
 *.deb
+*.ddeb
 
 build
 config.*
@@ -20,6 +21,13 @@ stamp-h1
 *.pc
 .tarball-version
 .version
+debian/build
+debian/tmp
+debian/xed-codecomment-plugin
+debian/.debhelper
+debian/xed-codecomment-plugin.substvars
+debian/xed-codecomment-plugin.debhelper.log
+debian/files
 
 *.gcda
 *.gcno
